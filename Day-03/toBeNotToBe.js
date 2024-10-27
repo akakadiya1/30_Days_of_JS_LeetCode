@@ -46,8 +46,13 @@ var expect = function(val) {
  * expect(5).notToBe(5); // throws "Equal"
  */
 
+
 // 2nd solution:
 
+/**
+ * @param {string} val
+ * @return {Object}
+ */
 var expect = function(val) {
     return {
        toBe: (p_val) => {
