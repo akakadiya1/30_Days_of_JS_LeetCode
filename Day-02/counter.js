@@ -19,7 +19,6 @@
 // ["call","call","call","call","call"]
 // Output: [-2,-1,0,1,2]
 // Explanation: counter() initially returns -2. Then increases after each sebsequent call.
- 
 
 // Constraints:
 
