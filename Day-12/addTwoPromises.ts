@@ -25,7 +25,7 @@
 
 type P = Promise<number>
 
-async function addTwoPromises(promise1: P, promise2: P): P {
+async function addTwoPromisesTS(promise1: P, promise2: P): P {
     const sum = await promise1 + await promise2
     return sum
 };
